@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>All Quizzes</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="loadQuizzes()">
+
+<h1>Available Quizzes</h1>
+
+<div style="text-align:center; margin-bottom:20px;">
+    <button onclick="window.location.href='create-quiz.html'">
+        Create New Quiz
+    </button>
+    <button onclick="goToResults()">My Results</button>
+    <button onclick="logout()">Logout</button>
+</div>
+
+<div id="quizList"></div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
